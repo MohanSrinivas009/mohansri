@@ -10,7 +10,7 @@ export function navbar() {
     <div className="navBar">
       <ul>
         <li>
-          <NavLink to="/mohansri">
+          <NavLink to="mohansri/">
             <Home />
           </NavLink>
         </li>
