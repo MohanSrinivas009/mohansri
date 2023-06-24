@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Outfit:wght@700;900&display=swap');
+*{
+  margin:0 0;
+  padding:0 0;
+}
+body{
+  margin: 0 0;
+  padding:0 0;
+}
+.navBar ul{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  position: relative; 
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.list{
+  padding: 15px 50px;
+  margin: 20px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  scale: 1;
+  transition: scale 200ms;
+  background-image: linear-gradient(45deg, #047168, #3c6ace);
+}
+.navBar{
+  position: relative;
+  margin: 15vh 40px 0;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4vh 4vh;
+  border-radius: 3vh;
+  background-color: #ffffff42;
+  box-shadow: 0 1rem 2rem #00000044;
+
+}
+.container{
+  position: relative;
+  width: 100%;
+  background-image: linear-gradient(90deg, green blue);  
+  display: flex;
+  flex-direction: row;
+}
+.list:hover,.list:active{
+  scale: 1.3;
+}
+
+.title{
+  position: relative;
+  width: 80%;
+  height: 90vh;
+  background-color: black;
+  margin: 30px 40px;
+  padding: 0 4vh;
+  border-radius: 3vh;
+  box-shadow: 0 1rem 2rem #00000092;
+  background-color: #ffffff79;
+}
+.backGround{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 0 0;
+  margin: 0 0;
+  border-radius: 0;
+  z-index: -2;
+  justify-content: center;
+  display: flex;
+  /* background-color: black; */
+  background:repeating-linear-gradient(90deg, transparent 30%, #520752 70%),
+              repeating-linear-gradient(45deg,#060302 20%,#39095f 30%,#630e36 50% );
+}
+
+
+
+.content{
+  position: relative;
+  width: fit-content;
+  bottom: -35vh;
+  padding:2vh;
+  font-family: 'Moirai One', cursive;
+  font-family: 'Outfit', sans-serif;
+  font-size: 10vh;
+  background:repeating-linear-gradient(30deg, #702309 10px, transparent 60px),
+            repeating-linear-gradient(-30deg, #740066 50px, transparent 30px),
+            repeating-linear-gradient(90deg, #39095f 50px, #960147 80px);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.designation{
+  font-size: 5vh;
+  font-stretch:narrower;
+  font-weight:lighter;
+}
+.about,.Contacts{
+  top:2vh;
+  border-bottom:solid 2px rgb(94, 4, 70);
+  width: inherit;
+  font-size:7vh;
+}
+.Hire{
+  position: relative;
+  display: flex;
+  width:74%;
+  left: 4%;
+  padding: 0 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #060302;
+}
+
+.Hire div{
+  position: relative;
+  height: fit-content;
+  background-color: transparent;
+  width: 10pc;
+  height: 50%;
+  scale: 1.0;
+  transition: width,scale linear 200ms;
+  margin: 20px 10px 0;
+}
+.fiver,.peoplePerHour,.Upwork,.freelancer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom,transparent,transparent,#000 );
+}
+.Hire div:hover{
+  width: 300px;
+  scale: 1.1;
+}
+.a{fill:#1dbf73;}
+.b{fill:#fff;}
+@media screen and(max-width:600px){
+  .navBar{  width: 100%;
+  height: fit-content
+  }
+  .navBar ul{display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  }
+  .container{
+    flex-direction: column;
+  }
+  .main{
+    position: relative;
+    width: 90%;
+    height: 80vh;
+  }
+}
