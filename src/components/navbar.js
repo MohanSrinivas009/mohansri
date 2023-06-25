@@ -7,7 +7,7 @@ import { navProjects as Projects } from './navProjects';
 import { navHire as Hire } from './navHire';
 export function navbar() {
   return (
-    <div className="navBar">
+    <div className="navBar RWDnav">
       <ul>
         <li>
           <NavLink to="mohansri/">

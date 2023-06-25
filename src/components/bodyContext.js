@@ -4,7 +4,7 @@ import { bodyDesignation as Designation } from './bodyDesignation'
 
 export const bodyContext = () => {
   return (
-    <div className='title'>
+    <div className='title body'>
       <div className='content'>HI, i am
       <Text1/>
       <Designation/>

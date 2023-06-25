@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Outfit:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Outfit:wght@700;900&display=swap');
 *{
   margin:0 0;
   padding:0 0;
@@ -76,6 +77,8 @@ a{
   margin: 0 0;
   border-radius: 0;
   z-index: -2;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   display: flex;
   /* background-color: black; */
@@ -83,9 +86,6 @@ a{
               repeating-linear-gradient(45deg,#060302 20%,#39095f 30%,#630e36 50% );
   background-attachment: fixed;
 }
-
-
-
 .content{
   position: relative;
   width: fit-content;
@@ -151,20 +151,72 @@ a{
 }
 .a{fill:#1dbf73;}
 .b{fill:#fff;}
-@media screen and(max-width:600px){
-  .navBar{  width: 100%;
-  height: fit-content
-  }
-  .navBar ul{display: flex;
+
+.scroll{
+overflow: hidden;
+}
+.scroll:hover{
+  overflow-y: scroll;
+}
+.bio,.Education,.skills,.Certification{
+  position: relative;
+  margin: 30px 0;
+}
+.Education h2,.skills h2,.Certification h2{
+font-family: 'Moirai One', cursive;
+font-family: 'Outfit', sans-serif;
+background-color: #000;
+color: #fff;
+display: flex;
+justify-content: center;
+}
+.scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.scroll::-webkit-scrollbar-track { 
+}
+ 
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+  background: #58004b;
+  padding-left: 3vh;
+}
+
+/* Handle on hover */
+.scroll::-webkit-scrollbar-thumb:hover {
+}
+@media only screen and (max-width:600px){
+ *{
+  margin: 0 0;
+ }
+  body{
+  margin: 0 0;
+  padding: 0 0;
+ }
+ .container{
+  display: flex;
+  flex-direction: column;
+ }
+ .navBar{
+  margin: 0vh 0vh;
+  border-radius: 0 0;
+  padding: 0 0;
+  width: 100%;
+  background-color: #000;
+ }
+ .navBar ul{
+  display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
-  }
-  .container{
-    flex-direction: column;
-  }
-  .main{
-    position: relative;
-    width: 90%;
-    height: 80vh;
-  }
+  justify-content: space-between;
+  width: 100%;
+ }
+ .title{
+  margin-left: 20px;
+ }
+ .list{
+  padding: 5px 15px;
+  margin: 1vh;
+ }
 }
