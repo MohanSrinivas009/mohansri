@@ -170,22 +170,25 @@ color: #fff;
 display: flex;
 justify-content: center;
 }
-.scroll::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
+  background-color: transparent;
 }
 
 /* Track */
-.scroll::-webkit-scrollbar-track { 
+::-webkit-scrollbar-track {
+  background-color: transparent; 
+  width:2px;
 }
  
 /* Handle */
-.scroll::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: #58004b;
   padding-left: 3vh;
 }
 
 /* Handle on hover */
-.scroll::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
 }
 @media only screen and (max-width:600px){
  *{
@@ -203,17 +206,20 @@ justify-content: center;
   margin: 0vh 0vh;
   border-radius: 0 0;
   padding: 0 0;
-  width: 100%;
+  width: fit-content;
   background-color: #000;
+  left: 1vh;
  }
  .navBar ul{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
+  width: fit-content;
+  padding: 0 2vh;
  }
  .title{
   margin-left: 20px;
+  left: 10%;
  }
  .list{
   padding: 5px 15px;
