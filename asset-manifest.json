@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mohansri/static/css/main.2f318b4e.css",
+    "main.css": "/mohansri/static/css/main.734ecca0.css",
     "main.js": "/mohansri/static/js/main.41c17903.js",
     "static/js/787.48fb14d9.chunk.js": "/mohansri/static/js/787.48fb14d9.chunk.js",
     "index.html": "/mohansri/index.html",
-    "main.2f318b4e.css.map": "/mohansri/static/css/main.2f318b4e.css.map",
+    "main.734ecca0.css.map": "/mohansri/static/css/main.734ecca0.css.map",
     "main.41c17903.js.map": "/mohansri/static/js/main.41c17903.js.map",
     "787.48fb14d9.chunk.js.map": "/mohansri/static/js/787.48fb14d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f318b4e.css",
+    "static/css/main.734ecca0.css",
     "static/js/main.41c17903.js"
   ]
 }
