@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mohansri/static/css/main.c62d8e06.css",
+    "main.css": "/mohansri/static/css/main.16a0f370.css",
     "main.js": "/mohansri/static/js/main.f2a3a346.js",
     "static/js/787.48fb14d9.chunk.js": "/mohansri/static/js/787.48fb14d9.chunk.js",
     "static/media/6.jpg": "/mohansri/static/media/6.28b8504aa7f3be39a934.jpg",
@@ -12,12 +12,12 @@
     "static/media/Programming_c++.jpg": "/mohansri/static/media/Programming_c++.6e5d58ad715c2ebc3746.jpg",
     "static/media/header_bg.jpg": "/mohansri/static/media/header_bg.e1c9b1c9e2b48785ffad.jpg",
     "index.html": "/mohansri/index.html",
-    "main.c62d8e06.css.map": "/mohansri/static/css/main.c62d8e06.css.map",
+    "main.16a0f370.css.map": "/mohansri/static/css/main.16a0f370.css.map",
     "main.f2a3a346.js.map": "/mohansri/static/js/main.f2a3a346.js.map",
     "787.48fb14d9.chunk.js.map": "/mohansri/static/js/787.48fb14d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c62d8e06.css",
+    "static/css/main.16a0f370.css",
     "static/js/main.f2a3a346.js"
   ]
 }
