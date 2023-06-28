@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/mohansri/static/css/main.734ecca0.css",
-    "main.js": "/mohansri/static/js/main.41c17903.js",
+    "main.css": "/mohansri/static/css/main.c62d8e06.css",
+    "main.js": "/mohansri/static/js/main.f2a3a346.js",
     "static/js/787.48fb14d9.chunk.js": "/mohansri/static/js/787.48fb14d9.chunk.js",
+    "static/media/6.jpg": "/mohansri/static/media/6.28b8504aa7f3be39a934.jpg",
+    "static/media/5.jpg": "/mohansri/static/media/5.d49c79c4b1e6de52f3dd.jpg",
+    "static/media/PythonForEverybody.jpeg": "/mohansri/static/media/PythonForEverybody.096d41be498d82402add.jpeg",
+    "static/media/3.jpg": "/mohansri/static/media/3.6b795dc4a05e940da57a.jpg",
+    "static/media/Responsive-Web-Design_certificate.jpg": "/mohansri/static/media/Responsive-Web-Design_certificate.ecf3a92aa38c8536786a.jpg",
+    "static/media/NPTEL.jpg": "/mohansri/static/media/NPTEL.02f1c36b6bc409133ae8.jpg",
+    "static/media/Programming_c++.jpg": "/mohansri/static/media/Programming_c++.6e5d58ad715c2ebc3746.jpg",
+    "static/media/header_bg.jpg": "/mohansri/static/media/header_bg.e1c9b1c9e2b48785ffad.jpg",
     "index.html": "/mohansri/index.html",
-    "main.734ecca0.css.map": "/mohansri/static/css/main.734ecca0.css.map",
-    "main.41c17903.js.map": "/mohansri/static/js/main.41c17903.js.map",
+    "main.c62d8e06.css.map": "/mohansri/static/css/main.c62d8e06.css.map",
+    "main.f2a3a346.js.map": "/mohansri/static/js/main.f2a3a346.js.map",
     "787.48fb14d9.chunk.js.map": "/mohansri/static/js/787.48fb14d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.734ecca0.css",
-    "static/js/main.41c17903.js"
+    "static/css/main.c62d8e06.css",
+    "static/js/main.f2a3a346.js"
   ]
 }
