@@ -9,7 +9,11 @@ body{
   margin: 0 0;
   padding:0 0;
 }
-.navBar ul{
+.body{
+  background:url(./components/images/3.jpg) no-repeat;
+  background-size: cover;
+}
+.navBar ul,.RWDnav ul{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -33,7 +37,7 @@ a{
   transition: scale 200ms;
   background-image: linear-gradient(45deg, #047168, #3c6ace);
 }
-.navBar{
+.navBar,.RWDnav{
   position: relative;
   margin: 15vh 40px 0;
   width: fit-content;
@@ -67,7 +71,8 @@ a{
   padding: 0 4vh;
   border-radius: 3vh;
   box-shadow: 0 1rem 2rem #00000092;
-  background-color: #ffffff79;
+  background-color: #00000079;
+  color: aliceblue;
 }
 .backGround{
   position: fixed;
@@ -94,9 +99,12 @@ a{
   font-family: 'Moirai One', cursive;
   font-family: 'Outfit', sans-serif;
   font-size: 10vh;
-  background:repeating-linear-gradient(30deg, #702309 10px, transparent 60px),
+  /* background:repeating-linear-gradient(30deg, #702309 10px, transparent 60px),
             repeating-linear-gradient(-30deg, #740066 50px, transparent 30px),
-            repeating-linear-gradient(90deg, #39095f 50px, #960147 80px);
+            repeating-linear-gradient(90deg, #39095f 50px, #960147 80px); */
+  background:repeating-linear-gradient(30deg, #068739 10px, transparent 60px),
+            repeating-linear-gradient(-30deg, #eaff5e 50px, transparent 30px),
+            repeating-linear-gradient(90deg, #2bb002 50px, #b50580 80px);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -104,50 +112,94 @@ a{
 }
 
 .designation{
-  font-size: 5vh;
+  font-size: 3vh;
   font-stretch:narrower;
   font-weight:lighter;
 }
-.about,.Contacts{
+.about{
   top:2vh;
-  border-bottom:solid 2px rgb(94, 4, 70);
+  border-bottom:solid 2px #5e0446;
   width: inherit;
   font-size:7vh;
+}
+.bg-About{
+    background: url(./components/images/5.jpg) no-repeat;
+    background-size: cover;
 }
 .Hire{
   position: relative;
   display: flex;
-  width:74%;
-  left: 4%;
   padding: 0 0;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background-color: #060302;
+  background: url(./components/images/header_bg.jpg) no-repeat;
+  background-size: cover;
 }
 
-.Hire div{
+.fiver,.peoplePerHour,.Upwork{
   position: relative;
-  height: fit-content;
-  background-color: transparent;
-  width: 10pc;
-  height: 50%;
-  scale: 1.0;
-  transition: width,scale linear 200ms;
-  margin: 20px 10px 0;
+  width: 30vh;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  margin:0 5px;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #000000;
+  transition: transform ease-in-out 20ms;
+  transform: perspective(500px) rotateY(35deg);
+  box-shadow: 3px 0px 5px white;
+  -webkit-box-reflect: below 8px linear-gradient(to bottom,transparent,transparent 70%,#000000 );
 }
-.fiver,.peoplePerHour,.Upwork,.freelancer{
+.fiver h3,.peoplePerHour h3,.Upwork h3{
   position: relative;
+  top: 10%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  -webkit-box-reflect: below 10px linear-gradient(to bottom,transparent,transparent,#000 );
 }
-.Hire div:hover{
-  width: 300px;
-  scale: 1.1;
+.fiver h3{
+    background-color: #1dbf73;
+}
+.peoplePerHour h3{
+  background:  linear-gradient(90deg, #ff0b0b 90%,#8e0000);
+}
+.Upwork h3{
+  background: #73BB44;
+}
+
+.profile{
+  position: absolute;
+  width: 30vh;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  z-index: -1;
+}
+.profile a{
+  position: absolute;
+  bottom: 2%;
+  justify-content: center;
+  width: 100%;
+  background-color: #255517;
+  padding:0 0 0 11vh;
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+  font-size: x-large;
+}
+.profile img{
+  width:60%;
+  object-fit: contain;
+  border-radius: 50%;
+  justify-content: center;
+  position: relative;
+  top: 15%;
+  left: 20%;
+  border: 5px solid white;
+}
+.fiver:hover,.peoplePerHour:hover,.Upwork:hover{
+  transform: none;
 }
 .a{fill:#1dbf73;}
 .b{fill:#fff;}
@@ -165,11 +217,144 @@ overflow: hidden;
 .Education h2,.skills h2,.Certification h2{
 font-family: 'Moirai One', cursive;
 font-family: 'Outfit', sans-serif;
-background-color: #000;
+background-color: #33a34d;
 color: #fff;
 display: flex;
 justify-content: center;
 }
+
+.GradDetails{
+  position: relative;
+  display: flex;
+  margin: 10px 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+.cards{
+  position: relative;
+  display: flex;
+}
+
+.GradDetails h3{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding:0 20px 0 20px;
+  background-color: #00b3ff;
+  text-shadow: 2px 1px black;
+}
+.degree{
+  padding:10px;
+  color: #000;
+  background-color: #ffffff;
+  font-weight: bold;
+  height: auto;
+  box-shadow: inset 2px 2px 10px #a5a5a5,inset -2px -2px 10px #9a9a9a;
+}
+.degree p{
+  margin: 5vh;
+}
+.skills div ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills div ul li{
+  padding: 15px 50px;
+  margin: 10px 2px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  scale: 1;
+  text-shadow: 2px 1px black;
+  transition: scale 200ms;
+  background-color: #ff0202;
+  background-image: linear-gradient(45deg, #fff200, #cf27ad);
+}
+.certificate{
+  margin-top: 2vh;
+}
+.certificate div{
+  position: absolute;
+  background-color: #000000;
+  margin: 15px;
+  padding: 8px;
+  border-radius: 10px;
+  z-index:1;
+}
+.certificate img{
+  position: relative;
+  width:105vh;
+  object-fit:contain;
+}
+
+.Contacts{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  background-clip: text;
+  list-style-type: none;
+  font-size: small;
+  margin-top: 2vh;
+}
+.Contacts li{
+  padding:0 30px;
+  background-color: #000;
+}
+.Contacts li svg{
+  width: 30px;
+  height: 50px;
+}
+.DisplayProject{
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ProjectPage{
+  background: url(./components/images/6.jpg) no-repeat;
+  background-size: cover;
+}
+.Project{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #00729c;
+  box-shadow: 0 0 10px #000000, 0 0 20px #000000;
+}
+.ProjectTitle{
+  position: relative;
+  margin: 0;
+  top: 10%;
+  bottom: 0;
+}
+.Project img{
+  width: inherit;
+  height: 75%;
+  object-fit: fill;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.menu{
+  display: none;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48;
+  color: white;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   background-color: transparent;
@@ -203,26 +388,67 @@ justify-content: center;
   flex-direction: column;
  }
  .navBar{
-  margin: 0vh 0vh;
+  position: absolute;
+  width: 30vh;
+  margin: 45px 0; 
   border-radius: 0 0;
   padding: 0 0;
-  width: fit-content;
   background-color: #000;
   left: 1vh;
+  border-radius: 10px;
+  z-index: 1;
  }
  .navBar ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   width: fit-content;
-  padding: 0 2vh;
+  padding: 2vh 2vh;
  }
  .title{
-  margin-left: 20px;
-  left: 10%;
+  left: 3%;
+  width: 30vh;
+  margin: 10px 0px;
+  padding: 0 4vh;
+  background-color: #000;
+  color: #FfF;
  }
  .list{
   padding: 5px 15px;
   margin: 1vh;
  }
+ .content{
+  font-size:6vh;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: inherit;
+  height: fit-content;
+  align-items: center;
+  margin: 0 0;
+  padding: 0;
+ }
+ .menu{
+  display: flex;
+  margin: 10px;
+  overflow: hidden;
+  width: 24px;
+  background-color: #000;
+  cursor: pointer;
+}
+.RWDnav{
+  display: none;
+}
+.open,.close{
+  position: absolute;
+display: none;
+}
+.Contacts{
+  display: flex;
+  position: fixed;
+  bottom: 0%;
+  left: 1%;
+}
+.Contacts li{
+  padding: 0 20px;
+}
+
 }

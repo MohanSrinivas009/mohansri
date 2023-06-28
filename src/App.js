@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { bodyContext as Body } from "./components/bodyContext";
-import { navbar as Navigation } from './components/navbar';
+import { Navbar as Navigation } from './components/Navbar';
 import { bodyBackground as Background } from "./components/bodyBackground";
 // import * as THREE from "three";
 // import { OrbitControls } from "three/addons/controls/OrbitControls.js";
@@ -19,10 +19,9 @@ function App() {
           <Navigation />
           <Routes>
             <Route path="AboutPage" element={<About />} />
-            <Route path="HirePage" element={<Hire/>}/>
-            <Route path="ProjectsPage" element={<Projects/>}/>
-            <Route path="mohansri/" element={<Body/>}/>
-            <Route path="ContactsPage" element={<Contacts/>}/>
+            <Route path="HirePage" element={<Hire />} />
+            <Route path="ProjectsPage" element={<Projects />} />
+            <Route path="mohansri/" element={<Body />} />
           </Routes>
         </BrowserRouter>
         <Background />

@@ -1,54 +1,48 @@
 import React from 'react'
 export const HirePage = () => {
   return (
-    <div className="Hire">
+    <div className=" title Hire">
       <div className="fiver ">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 508.02 508.02">
-          <defs></defs>
-          <circle class="a" cx="254.01" cy="254.01" r="254.01" />
-          <circle class="b" cx="315.97" cy="162.19" r="26.87" />
-          <path
-            class="b"
-            d="M345.87,207.66h-123V199.6c0-15.83,15.83-16.13,23.89-16.13,9.25,0,13.44.9,13.44.9v-43.6a155.21,155.21,0,0,0-19.71-1.19c-25.68,0-73.16,7.16-73.16,61.51V208h-22.4v40.31h22.4v85.1h-20.9v40.31H247.34V333.37H222.85v-85.1H290v85.1H269.13v40.31h97.65V333.37H345.87Z"
-            transform="translate(-1.83 -0.98)"
+        <h3>Fiver</h3>
+        <div className="profile">
+          <img
+            src="https://fiverr-res.cloudinary.com/image/upload/t_profile_original,q_auto,f_auto/v1/attachments/profile/photo/667db5531cf0a96720a7ec6f5e33a007-1687930839832/0cf3d23c-3864-45c6-95db-6d2a52c08a35.jpg"
+            alt="Fiverr Profile"
           />
-        </svg>
+          <p>
+            <a href="https://www.fiverr.com/mohan_srinivas_?up_rollout=true">
+              Hire
+            </a>
+          </p>
+        </div>
       </div>
       <div className="peoplePerHour ">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 508.02 508.02">
-          <defs></defs>
-          <circle class="a" cx="254.01" cy="254.01" r="254.01" />
-          <circle class="b" cx="315.97" cy="162.19" r="26.87" />
-          <path
-            class="b"
-            d="M345.87,207.66h-123V199.6c0-15.83,15.83-16.13,23.89-16.13,9.25,0,13.44.9,13.44.9v-43.6a155.21,155.21,0,0,0-19.71-1.19c-25.68,0-73.16,7.16-73.16,61.51V208h-22.4v40.31h22.4v85.1h-20.9v40.31H247.34V333.37H222.85v-85.1H290v85.1H269.13v40.31h97.65V333.37H345.87Z"
-            transform="translate(-1.83 -0.98)"
+        <h3>PeoplePerHour</h3>
+        <div className="profile">
+          <img
+            src="https://fiverr-res.cloudinary.com/image/upload/t_profile_original,q_auto,f_auto/v1/attachments/profile/photo/667db5531cf0a96720a7ec6f5e33a007-1687930839832/0cf3d23c-3864-45c6-95db-6d2a52c08a35.jpg"
+            alt="Fiverr Profile"
           />
-        </svg>
+          <p>
+            <a href="https://www.fiverr.com/mohan_srinivas_?up_rollout=true">
+              Hire
+            </a>
+          </p>
+        </div>
       </div>
-      <div className="Upwork">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 508.02 508.02">
-          <defs></defs>
-          <circle class="a" cx="254.01" cy="254.01" r="254.01" />
-          <circle class="b" cx="315.97" cy="162.19" r="26.87" />
-          <path
-            class="b"
-            d="M345.87,207.66h-123V199.6c0-15.83,15.83-16.13,23.89-16.13,9.25,0,13.44.9,13.44.9v-43.6a155.21,155.21,0,0,0-19.71-1.19c-25.68,0-73.16,7.16-73.16,61.51V208h-22.4v40.31h22.4v85.1h-20.9v40.31H247.34V333.37H222.85v-85.1H290v85.1H269.13v40.31h97.65V333.37H345.87Z"
-            transform="translate(-1.83 -0.98)"
+      <div className="Upwork ">
+        <h3>UpWork</h3>
+        <div className="profile">
+          <img
+            src="https://www.upwork.com/profile-portraits/c1SLu44v5K4gzUqlDSQMypmMH1ZUagT--BxoAYlOpvbVwigBp7pLGyTT0PtbrngFyN"
+            alt="Upwork Profile"
           />
-        </svg>
-      </div>
-      <div className="freelancer ">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 508.02 508.02">
-          <defs></defs>
-          <circle class="a" cx="254.01" cy="254.01" r="254.01" />
-          <circle class="b" cx="315.97" cy="162.19" r="26.87" />
-          <path
-            class="b"
-            d="M345.87,207.66h-123V199.6c0-15.83,15.83-16.13,23.89-16.13,9.25,0,13.44.9,13.44.9v-43.6a155.21,155.21,0,0,0-19.71-1.19c-25.68,0-73.16,7.16-73.16,61.51V208h-22.4v40.31h22.4v85.1h-20.9v40.31H247.34V333.37H222.85v-85.1H290v85.1H269.13v40.31h97.65V333.37H345.87Z"
-            transform="translate(-1.83 -0.98)"
-          />
-        </svg>
+          <p>
+            <a href="https://www.upwork.com/freelancers/~01e01d3f6da3bd4a38">
+              Hire
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );
