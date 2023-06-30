@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d24543f.css",
+    "main.css": "/static/css/main.1afa6c7c.css",
     "main.js": "/static/js/main.f1d7bd41.js",
     "static/js/787.48fb14d9.chunk.js": "/static/js/787.48fb14d9.chunk.js",
-    "static/media/6.jpg": "/static/media/6.28b8504aa7f3be39a934.jpg",
+    "static/media/1.jpg": "/static/media/1.1829b46764c8091df058.jpg",
     "static/media/5.jpg": "/static/media/5.d49c79c4b1e6de52f3dd.jpg",
     "static/media/PythonForEverybody.jpeg": "/static/media/PythonForEverybody.096d41be498d82402add.jpeg",
     "static/media/3.jpg": "/static/media/3.6b795dc4a05e940da57a.jpg",
@@ -12,12 +12,12 @@
     "static/media/Programming_c++.jpg": "/static/media/Programming_c++.6e5d58ad715c2ebc3746.jpg",
     "static/media/header_bg.jpg": "/static/media/header_bg.e1c9b1c9e2b48785ffad.jpg",
     "index.html": "/index.html",
-    "main.2d24543f.css.map": "/static/css/main.2d24543f.css.map",
+    "main.1afa6c7c.css.map": "/static/css/main.1afa6c7c.css.map",
     "main.f1d7bd41.js.map": "/static/js/main.f1d7bd41.js.map",
     "787.48fb14d9.chunk.js.map": "/static/js/787.48fb14d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d24543f.css",
+    "static/css/main.1afa6c7c.css",
     "static/js/main.f1d7bd41.js"
   ]
 }
