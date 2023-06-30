@@ -21,7 +21,7 @@ function App() {
             <Route path="AboutPage" element={<About />} />
             <Route path="HirePage" element={<Hire />} />
             <Route path="ProjectsPage" element={<Projects />} />
-            <Route path="mohansri/" element={<Body />} />
+            <Route path="/" element={<Body />} />
           </Routes>
         </BrowserRouter>
         <Background />
