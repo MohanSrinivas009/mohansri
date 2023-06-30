@@ -9,8 +9,8 @@ import { bodyBackground as Background } from "./components/bodyBackground";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { AboutPage as About } from "./components/pages/AboutPage";
 import { ProjectsPage as Projects } from "./components/pages/ProjectsPage";
-import { HirePage as Hire } from "./components/pages/HirePage";
-
+import { HirePage as Hire } from "./components/pages/HirePage"
+import { ContactsPage as Contacts } from "./components/pages/ContactsPage";
 function App() {
   return (
     <>
@@ -21,7 +21,7 @@ function App() {
             <Route path="AboutPage" element={<About />} />
             <Route path="HirePage" element={<Hire />} />
             <Route path="ProjectsPage" element={<Projects />} />
-            <Route path="mohansri" element={<Body />} />
+            <Route path="mohansri/" element={<Body />} />
           </Routes>
         </BrowserRouter>
         <Background />

@@ -31,7 +31,7 @@ export function Navbar() {
       <div className={style}>
         <ul>
           <li>
-            <NavLink to="/mohansri">
+            <NavLink to="mohansri/">
               <Home />
             </NavLink>
           </li>
