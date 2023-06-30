@@ -99,12 +99,13 @@ a{
   font-family: 'Moirai One', cursive;
   font-family: 'Outfit', sans-serif;
   font-size: 10vh;
-  /* background:repeating-linear-gradient(30deg, #702309 10px, transparent 60px),
-            repeating-linear-gradient(-30deg, #740066 50px, transparent 30px),
-            repeating-linear-gradient(90deg, #39095f 50px, #960147 80px); */
   background:repeating-linear-gradient(30deg, #068739 10px, transparent 60px),
             repeating-linear-gradient(-30deg, #eaff5e 50px, transparent 30px),
             repeating-linear-gradient(90deg, #2bb002 50px, #b50580 80px);
+  /* background:repeating-linear-gradient(30deg, #702309 10px, transparent 60px),
+            repeating-linear-gradient(-30deg, #740066 50px, transparent 30px),
+            repeating-linear-gradient(90deg, #39095f 50px, #960147 80px); */
+  
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -147,10 +148,10 @@ a{
   justify-content: center;
   overflow: hidden;
   background-color: #000000;
-  transition: transform ease-in-out 20ms;
+  transition: transform ease-in-out 300ms;
   transform: perspective(500px) rotateY(35deg);
   box-shadow: 3px 0px 5px white;
-  -webkit-box-reflect: below 8px linear-gradient(to bottom,transparent,transparent 70%,#000000 );
+  -webkit-box-reflect: below 18px linear-gradient(to bottom,transparent 70%,#12111160 );
 }
 .fiver h3,.peoplePerHour h3,.Upwork h3{
   position: relative;
@@ -318,7 +319,7 @@ justify-content: center;
   flex-wrap: wrap;
 }
 .ProjectPage{
-  background: url(./components/images/6.jpg) no-repeat;
+  background: url(./components/images/1.jpg) no-repeat;
   background-size: cover;
 }
 .Project{
@@ -328,8 +329,8 @@ justify-content: center;
   object-fit: contain;
   padding: 20px;
   border-radius: 10px;
-  background-color: #00729c;
-  box-shadow: 0 0 10px #000000, 0 0 20px #000000;
+  background-color: #0088ff;
+  box-shadow: 0 0 10px #000000, 0 0 60px #595959;
 }
 .ProjectTitle{
   position: relative;
